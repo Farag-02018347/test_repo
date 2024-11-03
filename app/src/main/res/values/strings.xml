@@ -1,0 +1,83 @@
+<resources>
+    <string name="app_name">Lights Out</string>
+    <string name="theodor">Theodor Farag</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="about"><b>Author Name:</b>
+Theodor Farag\n\n
+
+        <b>Author Introduction:</b>\n
+I\'m a passionate mobile app developer with a focus on creating engaging and user-friendly applications. With a background in computer science and a keen interest in game design, Theodor strives to develop projects that provide enjoyable and interactive experiences for users.\n\n
+
+        <b>Game Title:</b>
+Light Up\n\n
+
+        <b>Version:</b>
+1.0\n\n
+
+        <b>Game Description:</b>\n
+        Light Up is a fun and interactive puzzle game where players must toggle lights on and off in a grid to solve various challenges. The objective is to turn off all lights by strategically tapping buttons in a 3x3 grid. Players can choose their preferred color for the lights when they are on, adding a personal touch to the gameplay experience. The game features an intuitive user interface, making it accessible for players of all ages.\n\n
+
+        <b>Key Features:</b>\n
+        <ul>
+            <li><b>Customizable Color Selection:</b> Players can choose their favorite color for the active lights.\n\n</li>
+            <li><b>Simple Gameplay:</b>Easy to learn, yet challenging to master.\n\n</li>
+            <li><b>Engaging UI:</b> Bright and interactive design that enhances user experience.\n\n</li>
+            <li><b>Replayable Challenges:</b> Different game states keep the gameplay fresh and exciting.</li>
+        </ul>
+
+    </string>
+    <string name="question"><ul>
+            <li>
+                <b>UI Layout -</b>
+            </li>
+        The game consists of a grid of buttons arranged in a 3x3 layout.
+        Each button represents a light that can be toggled on (selected color) or off (default color).\n\n
+        <br/>
+
+        <li><b>Color Selection -</b></li>
+Before starting the game, users can navigate to the Color Settings Fragment to choose their preferred color for the "on" state.
+This selection changes the appearance of the buttons when the game is active.\n\n
+            <li><b>Start Game Button -</b></li>
+A Start Game button is provided to initialize the game.
+Pressing this button sets up the game board, resets all button states, and retrieves the selected color to be used for the "on" state of the buttons.\n\n
+
+            <li><b>Button States -</b></li>
+Each button can be in one of two states:
+On State: Displayed in the user-selected color (e.g., green).
+Off State: Displayed in a default color (e.g., primary color).
+The state of each button reflects the current state of the game.\n\n
+            <li><b>Game Interaction -</b></li>
+
+Users interact with the game by tapping the buttons:
+Tapping a button toggles its state between on and off, potentially changing its color according to the game logic.
+The app updates the visual representation of the buttons immediately after a tap to reflect the current game state.\n\n
+
+            <li><b>Game Completion -</b></li>
+The game UI monitors the state of the buttons to determine if the game is finished (all buttons are off).
+If completed, the UI may provide feedback to the player (e.g., a victory message or option to restart).\n\n
+            <li><b>Resetting the Game -</b></li>
+If users want to restart the game, they can press the Start Game button again.
+The UI resets all buttons to their off state, and the selected color is reapplied for the "on" state.\n
+        </ul>
+
+    </string>
+    <string name="help">Instructions</string>
+    <string name="start">NEW GAME</string>
+    <string name="color">Select a color:</string>
+    <string-array name="colors">
+        <item>Beige</item>
+        <item>Red</item>
+        <item>Purple</item>
+    </string-array>
+    <string name="prompt">Colors</string>
+    <string name="colorSettings">Color Settings</string>
+    <string name="aboutTitle">About</string>
+    <string name="helpTitle">Help</string>
+    <string name="play">Play</string>
+    <string name="Win">Congratulations You Won!</string>
+    <string name="moves">Moves:</string>
+    <string name="movesTitle">MOVES:</string>
+    <string name="zero">0</string>
+
+</resources>
