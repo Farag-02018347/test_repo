@@ -35,7 +35,6 @@ import androidx.navigation.ui.NavigationUI;
 import com.example.hw6.databinding.ActivityMainBinding;
 import com.google.android.material.appbar.MaterialToolbar;
 import com.google.android.material.bottomnavigation.BottomNavigationView;
-
 public class MainActivity extends AppCompatActivity {
     private ActivityMainBinding binding;
 
